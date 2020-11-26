@@ -1,0 +1,16 @@
+@import "../../vars.scss";
+
+.home {
+  background-image: url("../../assets/home.jpg");
+  background-size: cover;
+  background-position: 50% 50%;
+
+  .scroll {
+    padding-top: 955px;
+    padding-bottom: 53px;
+    color: $lightColor;
+  }
+}
+
+@import "./tablet";
+@import "./mobile";

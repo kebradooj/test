@@ -1,0 +1,42 @@
+@import "../../vars.scss";
+
+#home {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+.menu-box {
+  padding: 35px 0px;
+  margin: 0 70px;
+}
+
+.menu-mobile {
+  display: none;
+}
+
+#home .menu-box {
+  border-bottom: 1px $lightColor solid;
+  color: $lightColor;
+}
+
+#about .menu-box {
+  border-bottom: 1px $greyColor solid;
+  color: $greyColor;
+}
+
+.menu-ul {
+  list-style: none;
+  font-family: "PT Sans", sans-serif;
+  font-size: 24px;
+  text-transform: uppercase;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 600px;
+}
+
+@import "./tablet";
+@import "./mobile";
